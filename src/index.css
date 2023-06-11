@@ -1,0 +1,85 @@
+.section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.unAuthTitle {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.authBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.authBox h2 {
+    margin: 0;
+}
+
+.authBox button {
+    width: 100px;
+    padding: 5px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.currentFormWrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.currentFormWrap button {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.form h4 {
+    margin: 0;
+}
+
+.form input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form button {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dataWrap {
+    font-size: 18px;
+}
